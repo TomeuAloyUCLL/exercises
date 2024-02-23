@@ -122,7 +122,7 @@ But can we write to it?
 ```text
 >>> person = Person(18)
 
->>> person.age = 10
+>>> person.age
 AttributeError: can't set attribute
 ```
 
